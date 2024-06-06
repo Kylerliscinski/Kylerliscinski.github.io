@@ -9,7 +9,7 @@ const educationData = {
       major: "Full Stack Software Development",
       school_name: "CodeWorks",
       icon: codeworks,
-      date: "March 2023 - July 2023",
+      date: "March 2024 - June 2024",
       cssSelector: "codeworks",
       points: [
         "Completed rigorous Full-Stack course that utilizes the latest industry standards in Software Development.",
@@ -19,33 +19,33 @@ const educationData = {
         "Voted Idaho's #1 Specialty School."
       ],
     },
-    {
-      major: "Earned Certifications",
-      school_name: "Wild Learner",
-      icon: wildLearner,
-      date: "Jan 2023 - June 2023",
-      cssSelector: "wildlearner",
-      points: [
-        "Intro to HTML5",
-        "Intro to CSS3",
-        "Intro to JavaScript",
-        "Advanced JavaScript",
-        "Intro to React.js",
-        "Intro to Vue.js",
-        "Intro to Node.js",
-        "Intro to Express.js"
-      ]
-    },
-    {
-      major: "Earned Certifications",
-      school_name: "Grasshopper",
-      icon: grasshopper,
-      date: "Jan 2022 - Jan 2023",
-      cssSelector: "grasshopper",
-      points: [
-        "JS Fundamentals", "JS Fundamentals II", "JS Array Methods", "JS Animations", "JS Animations II"
-      ],
-    },
+    // {
+    //   major: "Earned Certifications",
+    //   school_name: "Wild Learner",
+    //   icon: wildLearner,
+    //   date: "Jan 2023 - June 2023",
+    //   cssSelector: "wildlearner",
+    //   points: [
+    //     "Intro to HTML5",
+    //     "Intro to CSS3",
+    //     "Intro to JavaScript",
+    //     "Advanced JavaScript",
+    //     "Intro to React.js",
+    //     "Intro to Vue.js",
+    //     "Intro to Node.js",
+    //     "Intro to Express.js"
+    //   ]
+    // },
+    // {
+    //   major: "Earned Certifications",
+    //   school_name: "Grasshopper",
+    //   icon: grasshopper,
+    //   date: "Jan 2022 - Jan 2023",
+    //   cssSelector: "grasshopper",
+    //   points: [
+    //     "JS Fundamentals", "JS Fundamentals II", "JS Array Methods", "JS Animations", "JS Animations II"
+    //   ],
+    // },
   ]
 }
 export default educationData;

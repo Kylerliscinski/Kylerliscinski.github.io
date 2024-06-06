@@ -4,8 +4,8 @@ import { github } from '../assets/img/icons/_index';
 const projectData = {
   id: "projects",
   title: "Projects",
-  subtitle: "Work || Art || Passion",
-  text: "As a dedicated Full Stack Software Developer, I bring a new flare to the table by blending my infinite ambition and creativity with technical prowess to craft seamless web applications. With a strong foundation in UX/UI design and a commitment to user-centric solutions, I passionately engineer immersive digital experiences that captivate through interactive enchantment. My pursuit of excellence extends to mastering 3D animations, frameworks, and libraries - ensuring to stay at the forefront of web development. From debugging stubborn errors and styling properties to leveraging animations to create engaging interfaces and experiences, I thrive on tackling challenges head-on. Join me in transforming ideas into remarkable digital manifestations.",
+  subtitle: "",
+  text: "",
   projects: [
     {
       id: "cw-challenges",
@@ -16,34 +16,34 @@ const projectData = {
       source_code_icon: github,
       cssSelector: "cw-challenges",
       tags: [
-          {
-              name: "vuejs",
-              color: "green-text-gradient"
-          },
-          {
-              name: "nodejs",
-              color: "blue-text-gradient"
-          },
-          {
-              name: "expressjs",
-              color: "pink-text-gradient"
-          },
-          {
-              name: "javascript",
-              color: "yellow-text-gradient"
-          },
-          {
-              name: "coding-challenges",
-              color: "green-text-gradient"
-          },
-          {
-              name: "community",
-              color: "orange-text-gradient"
-          },
-          {
-            name: "datamanipulation",
-            color: "purple-text-gradient"
-          }
+        {
+          name: "vuejs",
+          color: "green-text-gradient"
+        },
+        {
+          name: "nodejs",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "expressjs",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient"
+        },
+        {
+          name: "coding-challenges",
+          color: "green-text-gradient"
+        },
+        {
+          name: "community",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "datamanipulation",
+          color: "purple-text-gradient"
+        }
       ]
     },
     {
@@ -122,44 +122,6 @@ const projectData = {
         {
           name: "webapi",
           color: "yellow-text-gradient"
-        }
-      ]
-    },
-    {
-      name: "Game Pursuit",
-      description: "Fueled by a diverse set of skills and experiences, our team harnessed the power of Vue.js, Node.js, Express, and much more to architect a user-friendly hub for gamers to register, collect badges/sponsorships, flaunt their prowess, and initiate exhilarating tournaments that revolves around a token-based rewards system that encourages users to play more - and earn more. We also integrated a robust REST API and Postman to facilitate seamless communication between the front-end and back-end, and leveraged MongoDB to store user data and manage the application's state.",
-      image: gamePursuit,
-      source_code_link: "https://github.com/ChanthaKammer/capstone",
-      source_code_icon: github,
-      cssSelector: "game-pursuit",
-      tags: [
-        {
-          name: "vuejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "yellow-text-gradient"
-        },
-        {
-          name: "nodejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "expressjs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "postman",
-          color: "orange-text-gradient",
         }
       ]
     }

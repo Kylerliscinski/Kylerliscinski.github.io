@@ -12,20 +12,30 @@ const about = {
       title: 'Full Stack Software Developer'
     },
     {
-      imgSrc: vuejsReactjs,
+      imgSrc: "https://res.cloudinary.com/ddxwdqwkr/image/upload/v1690837534/patterns.dev/Images/vue/intro/vue.png",
       imgAlt: 'Image of Vue.js and React.js logos',
       title: 'Front-End Development'
     },
     {
-      imgSrc: nodejsAspnetCore,
+      imgSrc: "https://www.mucahittopal.com/upload/dosya/csmysql.jpg",
       imgAlt: 'Image of Node.js and ASP.NET Core logos',
       title: 'Back-End Development'
     },
-    {
-      imgSrc: webArtist,
-      imgAlt: 'Colorful image of multiple tech icons with splashes of color',
-      title: 'Web Artist'
-    },
+    // {
+    //   imgSrc: vuejsReactjs,
+    //   imgAlt: 'Image of Vue.js and React.js logos',
+    //   title: 'Front-End Development'
+    // },
+    // {
+    //   imgSrc: nodejsAspnetCore,
+    //   imgAlt: 'Image of Node.js and ASP.NET Core logos',
+    //   title: 'Back-End Development'
+    // },
+    // {
+    //   imgSrc: webArtist,
+    //   imgAlt: 'Colorful image of multiple tech icons with splashes of color',
+    //   title: 'Web Artist'
+    // },
   ],
 };
 

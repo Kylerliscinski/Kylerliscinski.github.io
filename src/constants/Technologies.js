@@ -5,26 +5,26 @@ const technologyData = {
   title: "Technologies",
   subtitle: "Technologies I have worked with",
   technologies: [
-    {
-      name: "React.js",
-      image: reactjs,
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Three.js",
-      image: threejs,
-      color: "green-text-gradient",
-    },
+    // {
+    //   name: "React.js",
+    //   image: reactjs,
+    //   color: "blue-text-gradient",
+    // },
+    // {
+    //   name: "Three.js",
+    //   image: threejs,
+    //   color: "green-text-gradient",
+    // },
     {
       name: "JavaScript",
       image: javascript,
       color: "yellow-text-gradient",
     },
-    {
-      name: "Tailwind",
-      image: tailwindcss,
-      color: "violet-text-gradient",
-    },
+    // {
+    //   name: "Tailwind",
+    //   image: tailwindcss,
+    //   color: "violet-text-gradient",
+    // },
     {
       name: "Vue.js",
       image: vuejs,
@@ -70,16 +70,16 @@ const technologyData = {
       image: css,
       color: "blue-text-gradient",
     },
-    {
-      name: "Docker",
-      image: docker,
-      color: "blue-text-gradient",
-    },
-    {
-      name: "Next.js",
-      image: nextjs,
-      color: "black-text-gradient",
-    },
+    // {
+    //   name: "Docker",
+    //   image: docker,
+    //   color: "blue-text-gradient",
+    // },
+    // {
+    //   name: "Next.js",
+    //   image: nextjs,
+    //   color: "black-text-gradient",
+    // },
     {
       name: "C#",
       image: cSharp,
@@ -91,8 +91,8 @@ const technologyData = {
       color: "purple-text-gradient",
     },
     {
-      name: "ASP.NET",
-      image: aspNet,
+      name: ".NET",
+      image: "https://cdn.icon-icons.com/icons2/2699/PNG/512/dotnet_logo_icon_170223.png",
       color: "blue-text-gradient",
     }
   ]
