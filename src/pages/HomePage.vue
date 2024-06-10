@@ -45,7 +45,7 @@ const isMobile = computed(() => window.innerWidth < 768);
       <Experience />
       <Technologies />
       <Projects />
-      <Feedback />
+      <!-- <Feedback /> -->
       <Contact />
     </div>
   </section>

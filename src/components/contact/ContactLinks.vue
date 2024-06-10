@@ -13,7 +13,7 @@ const templateLink = footerLinks.templateLink
   <ul :class="isMobile ? 'flex-row' : 'flex-column'" class="position-relative d-flex justify-content-center align-items-center">
     <li><a :href="linkedInLink.external_url" :title="linkedInLink.title"><i class="brands mdi mdi-linkedin"></i></a></li>
     <li><a :href="ghLink.external_url" :title="ghLink.title"><i class="brands mdi mdi-github"></i></a></li>
-    <li><a :href="templateLink.external_url" :title="templateLink.title"><i class="brands mdi mdi-ballot-recount-outline"></i></a></li>
+    <!-- <li><a :href="templateLink.external_url" :title="templateLink.title"><i class="brands mdi mdi-ballot-recount-outline"></i></a></li> -->
 </ul>
 </template>
 

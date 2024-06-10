@@ -8,9 +8,9 @@ const projectData = {
   text: "",
   projects: [
     {
-      id: "cw-challenges",
-      name: "CodeWorks Challenges",
-      description: "An innovative platform designed to empower students and alumni of CodeWorks by providing carefully curated coding challenges tailored to enhance and showcase their skills to other users and potential employers with earned badges and rank. Our interactive front-end is built with Vue 3, a robust Node/Express back-end with Auth0 integration, MongoDB, and Mongoose, fostering seamless UX and efficient challenge moderation. Users can explore a variety of coding exercises, track their progress, and connect with an active community of fellow developers.",
+      id: "keepr",
+      name: "Keepr",
+      description: "An application designed to share photos with one another. The app works similarly to Pinterest, you can add keeps(photos) to a vault. Logged in users can have private vaults that are inaccessible and not-viewable by non authorized accounts",
       image: cwChallenges,
       source_code_link: "https://github.com/codeworksacademy/challenges.codeworksacademy.com",
       source_code_icon: github,
@@ -25,33 +25,21 @@ const projectData = {
           color: "blue-text-gradient"
         },
         {
-          name: "expressjs",
-          color: "pink-text-gradient"
-        },
-        {
           name: "javascript",
           color: "yellow-text-gradient"
         },
         {
-          name: "coding-challenges",
-          color: "green-text-gradient"
-        },
-        {
-          name: "community",
-          color: "orange-text-gradient"
-        },
-        {
-          name: "datamanipulation",
-          color: "purple-text-gradient"
+          name: "scss",
+          color: "pink-text-gradient"
         }
       ]
     },
     {
-      id: "grant-ready",
-      name: "Grant Ready",
-      description: "Grant Ready isn't just about securing funds; it's about empowering nonprofits to make a lasting difference in their communities. By providing technical assistance, templates, and expert guidance, Grant Ready sets their clients up for success, allowing them to focus on what truly matters – their mission.  As the developer behind this innovative platform,  I had the privilege of collaborating with a client based in Portland, OR, to create Grant Ready, a cutting-edge application designed to revolutionize the way nonprofits approach grant funding. Grant Ready isn't just about securing funds; it's about empowering nonprofits to make a lasting difference in their communities.",
-      image: grantReady,
-      source_code_link: "https://github.com/AJVancattenburch/grant_ready",
+      id: "spuditions",
+      name: "Spuditions",
+      description: "Spuditions is a website built for those who love the outdoors. This application provides users with information about Idaho state parks. When using our website, you can see the weather, pricing, directions, and reviews for your desired location.",
+      image: "",
+      source_code_link: "https://spuditions.com/",
       source_code_icon: github,
       cssSelector: "grant-ready",
       tags: [
@@ -64,18 +52,6 @@ const projectData = {
           color: "yellow-text-gradient",
         },
         {
-          name: "frontend",
-          color: "purple-text-gradient"
-        },
-        {
-          name: "staticwebsite",
-          color: "pink-text-gradient"
-        },
-        {
-          name: "landingpage",
-          color: "orange-text-gradient"
-        },
-        {
           name: "scss",
           color: "pink-text-gradient"
         },
@@ -86,8 +62,8 @@ const projectData = {
       ]
     },
     {
-      name: "ThreadIt AI",
-      description: "ThreadIt is a cutting-edge platform that allows users to upload images of clothing items and receive recommendations for other items that pair well with their selection.  The application is built using a React front-end and a Node.js/Express.js back-end that utilizes three.js to render realistic 3D models, and the OpenAI API to generate recommendations based on the user's input. ThreadIt AI is designed to provide a seamless and intuitive user experience, making it easy for creative fashion designers and enthusiasts to almost effortlessly explore new styles and discover fresh ideas.",
+      name: "Inspire",
+      description: "Inspire is a sleek designed homepage for your web-browser. It is a simple application, displaying the date, time, and weather. A bonus of this application is the ability to add 'todos' that you can check off when complete. If you are feeling like life is to cluttered, use Inspire to help simplify your day",
       image: threaditAI,
       hyper_link: "https://threaditai.web.app",
       source_code_link: "https://github.com/AJVancattenburch/ThreadItAI",
@@ -95,34 +71,22 @@ const projectData = {
       cssSelector: "threadit-ai",
       tags: [
         {
-          name: "reactjs",
-          color: "blue-text-gradient"
-        },
-        {
-          name: "threejs",
+          name: "css",
           color: "green-text-gradient"
         },
         {
           name: "javascript",
           color: "yellow-text-gradient"
         },
-        {
-          name: "tailwind",
-          color: "purple-text-gradient"
-        },
-        {
-          name: "openaiapi",
-          color: "orange-text-gradient"
-        },
-        {
-          name: "cloudinary",
-          color: "blue-text-gradient"
 
+        {
+          name: "bootstrap",
+          color: "blue-text-gradient"
         },
         {
-          name: "webapi",
-          color: "yellow-text-gradient"
-        }
+          name: "staticwebsite",
+          color: "pink-text-gradient"
+        },
       ]
     }
   ]

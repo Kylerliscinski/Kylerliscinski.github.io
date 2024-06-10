@@ -4,14 +4,14 @@ const githubLink = {
   name: "Github",
   title: "View my activity on Github",
   imgSrc: github,
-  external_url: "https://github.com/AJVancattenburch"
+  external_url: "https://github.com/Kylerliscinski"
 };
 
 const linkedInLink = {
   name: "LinkedIn",
   title: "Connect with me on LinkedIn",
   imgSrc: linkedin,
-  external_url: "https://linkedin.com/in/anthonyvancattenburch/"
+  external_url: "https://www.linkedin.com/in/kyler-liscinski/"
 };
 
 const templateLink = {
