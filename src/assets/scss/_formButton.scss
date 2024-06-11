@@ -1,4 +1,4 @@
-@import './_styles.scss';
+@import './styles.scss';
 
 .form button {
   position: relative;
@@ -70,7 +70,7 @@ form:valid button[type="submit"] {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--purple-gradient)) ;
+  background: linear-gradient(90deg, transparent, var(--purple-gradient));
   animation: btn-anim1 5s linear infinite;
 }
 

@@ -1,4 +1,4 @@
-@import './_styles.scss';
+@import './styles.scss';
 
 .form {
   background: #100221ea;
@@ -6,21 +6,19 @@
   box-sizing: border-box;
   height: 520px;
   padding: 20px;
-  filter: 
-    drop-shadow(0px 4px 4px #ffffff80)
-    drop-shadow(0px 8px 8px #00000040)
-    drop-shadow(8px 8px 8px #00000040);
-    transition: filter 500ms;
+  filter:
+    drop-shadow(0px 4px 4px #ffffff80) drop-shadow(0px 8px 8px #00000040) drop-shadow(8px 8px 8px #00000040);
+  transition: filter 500ms;
+
   &:focus-within {
     border: 2px solid #00000080;
     background: linear-gradient(var(--dark-purple), var(--dark-pink));
     background-origin: border-box;
     background-clip: padding-box, border-box;
     transition: background 500ms;
-    filter: 
-      drop-shadow(0px 4px 4px var(--dark-pink))
-      drop-shadow(0px 8px 8px var(--dark-green))
-      drop-shadow(8px 8px 8px var(--dark-purple));
+    filter:
+      drop-shadow(0px 4px 4px var(--dark-pink)) drop-shadow(0px 8px 8px var(--dark-green)) drop-shadow(8px 8px 8px var(--dark-purple));
+
     .cut {
       background: #4b225899;
       filter: drop-shadow(0px 4px 4px #00000080);
@@ -94,10 +92,10 @@
 }
 
 
-.input:focus ~ .cut,
-.input:not(:placeholder-shown) ~ .cut,
-.input:focus ~ .cut-long,
-.input:not(:placeholder-shown) ~ .cut-long {
+.input:focus~.cut,
+.input:not(:placeholder-shown)~.cut,
+.input:focus~.cut-long,
+.input:not(:placeholder-shown)~.cut-long {
   transform: translateY(8px);
 }
 
@@ -111,39 +109,40 @@
   top: 20px;
 }
 
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown):invalid ~ .placeholder {
+.input:focus~.placeholder,
+.input:not(:placeholder-shown):invalid~.placeholder {
   color: var(--shadow-pink);
   transform: translateY(-30px) translateX(10px) scale(0.75);
 }
 
-:is(input, textarea):not(:placeholder-shown)
- {
+:is(input, textarea):not(:placeholder-shown) {
   &:valid::after {
     outline: 1px ridge var(--shadow-green);
   }
+
   &:invalid::after {
     outline: 0.5px dashed var(--shadow-pink);
   }
 }
 
-input:placeholder-shown ~ .placeholder,
-textarea:placeholder-shown ~ .placeholder {
+input:placeholder-shown~.placeholder,
+textarea:placeholder-shown~.placeholder {
   color: transparent;
   -webkit-text-fill-color: var(--text-primary);
 }
 
-.input:focus ~ .placeholder {
+.input:focus~.placeholder {
   color: transparent;
   -webkit-text-fill-color: var(--blue);
   text-shadow: 1px 1px 0.5px #000;
   filter: brightness(1.2);
 }
 
-input:not(:placeholder-shown):valid ~ .placeholder,
-textarea:not(:placeholder-shown):valid ~ .placeholder {
+input:not(:placeholder-shown):valid~.placeholder,
+textarea:not(:placeholder-shown):valid~.placeholder {
   transform: translateY(-30px) translateX(10px) scale(0.75);
   visibility: hidden;
+
   &::before {
     content: 'Confirmed ✓';
     position: absolute;
