@@ -1,4 +1,4 @@
-import { cwChallenges, grantReady, threaditAI, gamePursuit, spuditions, keepr, inspire } from '../assets/img/projects/_index';
+import { spuditions, keepr, inspire } from '../assets/img/projects/_index';
 import { github } from '../assets/img/icons/_index';
 
 const projectData = {

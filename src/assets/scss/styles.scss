@@ -3,8 +3,10 @@ These `:root` selectors can all be accessed by using var(--variable-name) in you
 
 :root {
   /* Fonts */
-  --text-primary: #E7E7E7; /* EDITABLE - Change color hex value top change primary text color on the entire page */
-  --text-secondary: #AAA6C3; /* EDITABLE - Change color hex value top change secondary text color on the entire page */
+  --text-primary: #E7E7E7;
+  /* EDITABLE - Change color hex value top change primary text color on the entire page */
+  --text-secondary: #AAA6C3;
+  /* EDITABLE - Change color hex value top change secondary text color on the entire page */
 
   /* Standard Colors */
   /* EDITABLE - The 'Standard Colors' are your main color palette. I recommend keeping the variable names and just changing the values until you find a palette you like.
@@ -14,7 +16,7 @@ These `:root` selectors can all be accessed by using var(--variable-name) in you
   --green: #00cea8;
   --red: #D85571;
   --pink: #ec008c;
-  
+
   /* Shadows */
   /* EDITABLE - The 'Shadows' are your shadow color palette. I recommend keeping them the same colors as your 'Standard Colors', then adding 'a5' to the end of your color to add some glassmorphism. */
   --shadow-purple: #804deea5;
@@ -22,7 +24,7 @@ These `:root` selectors can all be accessed by using var(--variable-name) in you
   --shadow-green: #00cea8a5;
   --shadow-red: #D85571a5;
   --shadow-pink: #ec008ca5;
-  
+
   /* Dark Colors */
   /* EDITABLE - The 'Dark Colors' are your dark color palette. I recommend opening your color picker and simply selecting a darker shade for each 'Standard Color'. */
   --dark-purple: #3e3164;
@@ -80,9 +82,12 @@ Becomes:
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #232323, #000000); /* Chrome 10-25|Safari 5.1-6 */
-  background: linear-gradient(to right, #232323, #000000); /* W3C|IE 10+/Edge|Firefox 16+|Chrome 26+|Opera 12+|Safari 7+ */
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #232323, #000000);
+  /* Chrome 10-25|Safari 5.1-6 */
+  background: linear-gradient(to right, #232323, #000000);
+  /* W3C|IE 10+/Edge|Firefox 16+|Chrome 26+|Opera 12+|Safari 7+ */
 }
 
 .black-gradient-reverse {
@@ -139,7 +144,12 @@ Becomes:
   background: linear-gradient(to top, var(--pink), #fc6767);
 }
 
-.purple-text-gradient, .yellow-text-gradient, .orange-text-gradient, .green-text-gradient, .blue-text-gradient, .pink-text-gradient {
+.purple-text-gradient,
+.yellow-text-gradient,
+.orange-text-gradient,
+.green-text-gradient,
+.blue-text-gradient,
+.pink-text-gradient {
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
